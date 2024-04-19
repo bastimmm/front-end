@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image: linear-gradient(120deg,rgba( 214, 161, 0.762 ),
+    rgba(0, 0, 255, 0.446)),url(200176-far-cry-dvd-base_16x9.jpg.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero-texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    text-align: center;
+}
